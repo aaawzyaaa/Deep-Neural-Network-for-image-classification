@@ -2,15 +2,21 @@
 a) Does more layers’ system provide a better result?
 The experiments I designed to explore this question are training some networks with
 different number of layers and see the difference of the results.
+
 b) How does different hidden units affect the result?
 The experiments I designed to explore this question are training some networks with different number of hidden units and see how results varies.
+
 c) Which is the most suitable activation function for Cifar dataset?
 The experiments I designed to explore this question are training some networks with different nonlinearities, which with the best number of layers and hidden units I tried from the experiments before, to in figure out the best nonlinearity of the network.
+
 d) Which optimizer performs the best for the model?
 The experiments I designed to explore this question are training some networks with different optimizers, which with the best number of hidden units, layers and nonlinearity.
+
 e) Will batch normalization help in this model?
 The experiment I designed to explore this question is training a network with the best elements I found from previous experiments, and applying batch normalization to this model to see if batch normalization would help to perform better.
+
 f) Will dropout work in this model to reduce the overfitting?
 The experiment I designed to explore this question is training a network with the best elements I found form previous experiments, and applying dropout to the model to see how it performs.
+
 g) How does the optimal model that found in Cifar-10 perform in Cifar-100?
 Since two datasets are pretty similar, there is no need to test all the processes on the Cifar-100 dataset again. Thus, I will only use the best model I found in Cifar-10 and train it on Cifar-100 dataset.
