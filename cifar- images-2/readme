@@ -1,0 +1,26 @@
+1.2.2 Architecture
+Input Image 32x32x3 pixel
+Conv1
+Pool1
+Conv 5x5x32, stride 1
+Activation Function(varies)
+Max pool (size varies), stride 2
+Local response normalization [5]
+Conv2
+Pool2
+Conv 5x5x64, stride 1
+Activation Function(varies)
+Local response normalization
+Max pool (size varies), stride 2
+FC layer1
+Dropout1
+FC layer2
+Dropout2
+Fully-connected 4096
+Activation Function(varies)
+Dropout ratio 0.5
+Fully-connected 1024
+Activation Function(varies)
+Dropout ratio 0.5
+Fc-clf Softmax-10or100
+Table 1: Model Architecture
